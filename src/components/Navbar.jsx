@@ -5,6 +5,7 @@ import { SearchBar } from "./";
 
 const Navbar = () => (
   <Stack
+    zIndex={1}
     direction="row"
     alignItems="center"
     p={2}
